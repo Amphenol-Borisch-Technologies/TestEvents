@@ -4,13 +4,13 @@
 - Comprehensively production tested on Microsoft Windows Xp™ 32-bit & Windows 7™ 32-bit.
 
 # TestEvents client application
-Common requirements for all TestEvents clients:
+Common items for all TestEvents clients:
 - TestEvent.java
 - SpectrumWrapper.java
 - SpeaWrapper.java
 - TestEvent.bat
 - PostgreSQL TestEvents schema
-- Microsoft Access front-end
+- Microsoft Access front-end database
 
 # Keysight i3070
 - TestEventsUCI.cpp

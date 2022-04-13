@@ -1,5 +1,6 @@
 @echo off
 "C:\Program Files\Java\jre1.8.0_261\bin\java.exe" -classpath "C:\Program Files\TestEvents;C:\Program Files\Java\jre1.8.0_261\lib;C:\Program Files\Java\jre1.8.0_261\lib\ext;C:\Program Files\TestEvents\TestEvents.jar" TestEvents.client.TestEvent %1 %2 %3
+REM Change the invoked class from TestEvent to SpectrumWrapper via TestEvents.client.SpectrumWrapper %1 %2 %3
 REM
 REM  This is a Microsoft Windows command prompt batch file.
 REM 

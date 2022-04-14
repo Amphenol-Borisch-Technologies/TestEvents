@@ -27,8 +27,6 @@ public final class TestEvent {
     private static final String RDBMS_LOGIN = "testevent";
     private static final String RDBMS_PASSWORD = "testevent";
     private static final String RDBMS_URL = "jdbc:postgresql://vm-int-pgsql-01.borisch.local:5432/test";
-    // private static final String RDBMS_URL = "jdbc:postgresql://postgresql-test.borisch.local:5432/test";
-
     private TestEvent() {};
 
     public static void main(String[] args) {
@@ -81,8 +79,7 @@ public final class TestEvent {
         } catch (IOException e) {
             SaveException(e.toString());
         }            
-        if ((savedEvents != 0) && ((savedEvents % 10) == 0)) return true; // Queue up multiples of 10 TestEvents before inserting them.
-        else return false;
+        return (savedEvents != 0) && ((savedEvents % 10) == 0); // Queue up multiples of 10 TestEvents before inserting them.
     }
 
     private static void InsertSavedEvents() {

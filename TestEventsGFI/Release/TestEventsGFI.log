@@ -1,0 +1,15 @@
+﻿  stdafx.cpp
+  TestEventsGFI.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Program Files (x86)\Teradyne\Spectrum\5.2\TOOLKIT\INCLUDE\dhc_api.h(400,31): error C2365: 'PS_NONE': redefinition; previous definition was 'enumerator'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\shobjidl_core.h(3851): message : see declaration of 'PS_NONE'
+C:\Users\phils\source\repos\TestEventsGFI\TestEventsGFI.cpp(78,47): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\phils\source\repos\TestEventsGFI\TestEventsGFI.cpp(80,33): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\phils\source\repos\TestEventsGFI\TestEventsGFI.cpp(80,70): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\phils\source\repos\TestEventsGFI\TestEventsGFI.cpp(80,99): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\phils\source\repos\TestEventsGFI\TestEventsGFI.cpp(80,134): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\phils\source\repos\TestEventsGFI\TestEventsGFI.cpp(80,161): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\phils\source\repos\TestEventsGFI\TestEventsGFI.cpp(77,20): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\phils\source\repos\TestEventsGFI\TestEventsGFI.cpp(104,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\phils\source\repos\TestEventsGFI\TestEventsGFI.cpp(116,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\phils\source\repos\TestEventsGFI\TestEventsGFI.cpp(121,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

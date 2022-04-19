@@ -33,20 +33,19 @@ public final class SpectrumWrapper {
             Path newLogFile = Paths.get(TDR + args[0] + "_" + args[1] + "_" + newLogNumber + "_" + GetHostName() + "_" + args[2] + ".txt");
             // args[2] is the Test Event, from set {'A','F','P'} for Abort, Fail & Pass respectively.
             do {
-                try { Files.move(dataLogSpectrum, newLogFile, StandardCopyOption.ATOMIC_MOVE, StandardCopyOption.REPLACE_EXISTING); }
-                    // Example: move file "C:\TPD\CCA123\CCA123.datalog.dat" to "C:\TDR\CCA123\CCA123_ABT2208-006_3_Spectrum8852-1_P.txt".
-                    // Spectrum app automatically recreates datalog file "C:\TPD\CCA123\CCA123.datalog.dat" during next test run.
-                    // File dataLogSpectrum may occasionally still be open/in-use when move() runs, though per
-                    // Teradyne's Spectrum 8800-Series Client Application Tools manual, it's implied it should be closed:
-                    //   MPTEV_GFI_POST _EXECUTE This event is broadcast at the end of each test program cycle 
-                    //   and is useful for moving and reading datalog files, compiling test statistics, communicating with 
-                    //   robots, releasing vacuums, and so forth.
-                catch (IOException io) {
-                    TestEvent.SaveException(io.toString());
-                    TestEvent.SaveException("File " + dataLogSpectrum.toString() + " possibly not moved to " + newLogFile.toString() + ".");
-                }
-                try { Thread.sleep(500); }     
+                try { Thread.sleep(1000); }
                 catch (InterruptedException ie) { TestEvent.SaveException(ie.toString()); }
+                try { Files.move(dataLogSpectrum, newLogFile, StandardCopyOption.ATOMIC_MOVE); }
+                catch (IOException io) { }
+                // Above try/catch will move hypothetical file "C:\TPD\CCA123\CCA123.datalog.dat" to "C:\TDR\CCA123\CCA123_ABT2208-006_3_Spectrum8852-1_P.txt".
+                // Spectrum app automatically recreates datalog file "C:\TPD\CCA123\CCA123.datalog.dat" during next test run.
+                // File dataLogSpectrum may occasionally still be open/in-use when move() runs, though per
+                // Teradyne's Spectrum 8800-Series Client Application Tools manual, it's implied it should be closed:
+                //   MPTEV_GFI_POST _EXECUTE This event is broadcast at the end of each test program cycle 
+                //   and is useful for moving and reading datalog files, compiling test statistics, communicating with 
+                //   robots, releasing vacuums, and so forth.
+                // Above Files.move() statement often throws an IOException.  
+                // Initially logged them via TestEvent.SaveException(), but doing so wasn't useful.
             } while (Files.exists(dataLogSpectrum));
         }
     }

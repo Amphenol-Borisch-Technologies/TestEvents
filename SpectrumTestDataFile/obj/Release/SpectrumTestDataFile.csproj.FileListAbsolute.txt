@@ -1,0 +1,7 @@
+C:\Users\phils\source\repos\SpectrumTestDataFile\bin\Release\SpectrumTestDataFile.dll.config
+C:\Users\phils\source\repos\SpectrumTestDataFile\bin\Release\SpectrumTestDataFile.dll
+C:\Users\phils\source\repos\SpectrumTestDataFile\bin\Release\SpectrumTestDataFile.pdb
+C:\Users\phils\source\repos\SpectrumTestDataFile\obj\Release\SpectrumTestDataFile.csproj.AssemblyReference.cache
+C:\Users\phils\source\repos\SpectrumTestDataFile\obj\Release\SpectrumTestDataFile.csproj.CoreCompileInputs.cache
+C:\Users\phils\source\repos\SpectrumTestDataFile\obj\Release\SpectrumTestDataFile.dll
+C:\Users\phils\source\repos\SpectrumTestDataFile\obj\Release\SpectrumTestDataFile.pdb

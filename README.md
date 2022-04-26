@@ -6,7 +6,6 @@
 # TestEvents client application
 Common items for all TestEvents clients:
 - TestEvent.java
-- SpectrumWrapper.java
 - SpeaWrapper.java
 - TestEvent.bat
 - PostgreSQL TestEvents schema

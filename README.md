@@ -1,7 +1,7 @@
 # TestEvents
 - Record Test Events from automated test equipment such as Keysight i3070™, Nexeya MPT-5000™ & Teradyne Spectrum 8800™ into a PostgreSQL™ RDBMS.
 - Connect to the PostgreSQL TestEvents database via Microsoft Access™ to run queries & reports.
-- Comprehensively production tested on Microsoft Windows Xp™ 32-bit & Windows 7™ 32-bit.
+- Comprehensively production tested on Microsoft Windows 7™ 32-bit.
 
 # TestEvents client application
 Common items for all TestEvents clients:

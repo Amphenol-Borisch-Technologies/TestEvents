@@ -1,3 +1,0 @@
-C:\Users\phils\source\repos\TestEventsGFI\Release\TestEventsGFI.vcxproj.AssemblyReference.cache
-C:\Users\phils\source\repos\TestEventsGFI\Release\TestEventsGFI.vcxproj.SuggestedBindingRedirects.cache
-C:\Users\phils\source\repos\TestEventsGFI\Release\TestEventsGFI.exe

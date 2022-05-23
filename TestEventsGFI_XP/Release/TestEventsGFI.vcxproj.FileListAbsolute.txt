@@ -1,0 +1,10 @@
+C:\Users\phils\source\repos\TestEventsGFI\Release\TestEventsGFI.vcxproj.AssemblyReference.cache
+C:\Users\phils\source\repos\TestEventsGFI\Release\TestEventsGFI.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\phils\source\repos\TestEventsGFI\Release\TestEventsGFI.exe
+P:\Test\Engineers\ICT\TestEvents\TestEventsGFI\Release\TestEventsGFI.vcxproj.AssemblyReference.cache
+P:\Test\Engineers\ICT\TestEvents\TestEventsGFI\Release\TestEventsGFI.vcxproj.SuggestedBindingRedirects.cache
+P:\Test\Engineers\ICT\TestEvents\TestEventsGFI\Release\TestEventsGFI.exe
+C:\Users\phils\source\repos\TestEventsGFI_XP\Release\TestEventsGFI.vcxproj.AssemblyReference.cache
+C:\Users\phils\source\repos\TestEventsGFI_XP\Release\TestEventsGFI.exe
+P:\Test\Engineers\ICT\TestEvents\TestEventsGFI_XP\Release\TestEventsGFI.vcxproj.AssemblyReference.cache
+P:\Test\Engineers\ICT\TestEvents\TestEventsGFI_XP\Release\TestEventsGFI.exe

@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  TestEventsGFI.cpp
+P:\Test\Engineers\ICT\TestEvents\TestEventsGFI_XP\TestEventsGFI.cpp(74,22): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  .NETFramework,Version=4.0.AssemblyAttributes.cpp
+  TestEventsGFI.vcxproj -> P:\Test\Engineers\ICT\TestEvents\TestEventsGFI_XP\Release\TestEventsGFI.exe

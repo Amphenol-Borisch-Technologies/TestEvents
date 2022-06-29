@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS test_events.exceptions
     date date NOT NULL,
     "time" time without time zone NOT NULL,
     host_name character varying(255) COLLATE pg_catalog."default" NOT NULL,
-    exception character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    exception character varying(1024) COLLATE pg_catalog."default" NOT NULL,
     user_dir character varying(255) COLLATE pg_catalog."default" NOT NULL,
     id integer NOT NULL DEFAULT nextval('test_events.exceptions_id_seq'::regclass),
     CONSTRAINT exceptions_pkey PRIMARY KEY (id)

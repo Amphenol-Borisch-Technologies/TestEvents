@@ -5,8 +5,7 @@
 
 # TestEvents client application
 Common items for all TestEvents clients:
-- TestEvent.java
-- SpeaWrapper.java
+- TestEvent.cs
 - TestEvent.bat
 - PostgreSQL TestEvents schema
 - Microsoft Access front-end database

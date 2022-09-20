@@ -1,3 +1,0 @@
-C:\Users\phils\source\repos\TestEvents\obj\Debug\TestEvents.csproj.AssemblyReference.cache
-C:\Users\phils\source\repos\TestEvents\obj\Debug\TestEvents.csproj.SuggestedBindingRedirects.cache
-C:\Users\phils\source\repos\TestEvents\obj\Debug\TestEvents.csproj.CoreCompileInputs.cache
